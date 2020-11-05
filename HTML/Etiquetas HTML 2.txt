@@ -1,0 +1,44 @@
+<!--Esta etiqueta valida que estemos usando HTML 5-->
+<!doctype html>
+<!--En esta etiqueta colocaremos todo el cuerpo de nuestro codigo-->
+<html>
+    <!--Esta etiqueta me permite utilizar apis y colocar titulo a mi pagina-->
+    <head>
+        <title>Mi primera pagina</title>
+    </head>
+    <!--Esta etiqueta sirve para editar en la pagina-->
+    <body>
+        <!--Esta etiqueta nos permitira pedir informacion al usuario-->
+        <form>
+            <!--Esta etiqueta me permite crear un cuadro y encerrarlo todo adentro del cuadro-->
+            <fieldset>
+                <!--Me permite crear un encabezado en el cuadro-->
+                <legend>Datos personales</legend>
+                <!--Me permite colocar texto al lado de un cuadro input-->
+                <label>Nombre</label>
+                <input type="text" placeholder="Nombre...">
+                <br>
+                <label>Edad</label>
+                <!--Esta etiqueta nos permitira crear un cuadro input-->
+                <!--El type nos permite cambiar el tipo de contenido que entrara en el input-->
+                <input type="number" placeholder="Edad...">
+                <br>
+                <label>Contrasenia</label>
+                <input type="password" placeholder="Contrasenia">
+                <br>
+                <input type="submit" value="Aceptar">
+                <!--Esta etiqueta me permite crear un recuadro de texto-->
+                <textarea></textarea>
+                <!--Me permite crear un boton-->
+                <button>Chupame un webo</button>
+                <!--Esta etiqueta me permite crear un menu de seleccion de opciones-->
+                <select>
+                    <!--Esta etiqueta me permite crear opciones y el value es el valor de la opcion-->
+                    <option value="goku"> Goku</option>
+                    <option value="vegeta"> Vegetta</option>
+                    <option value="gohan"> Gohan</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>
